@@ -732,7 +732,33 @@
       <h2 class="sec-title">Risk–kontrol matrisi, <em>çalışan örnek</em></h2>
     </div>
     <p class="sec-sub">Risk değerlendirme, likelihood × impact ile puanlanır. Her yüksek/kritik risk en az bir Annex A kontrolüne bağlanmalıdır.</p>
+    <p class="sec-sub">Risk değerlendirme, likelihood × impact ile puanlanır. Her yüksek/kritik risk en az bir Annex A kontrolüne bağlanmalıdır.</p>
 
+    <!-- MATRİS OKUMA KILAVUZU -->
+    <div style="background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);padding:16px 20px;margin-bottom:24px;font-size:13px;color:var(--ink-2);line-height:1.6;">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px;">◆ Bu Matris Nasıl Okunur?</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;">
+        <div>
+          <div style="font-weight:600;color:var(--ink);margin-bottom:4px;">1 · İki eksen var</div>
+          Dikey eksen <b>Etki</b> — risk gerçekleşirse ne kadar zarar verir.<br/>
+          Yatay eksen <b>Olasılık</b> — o riskin gerçekleşme ihtimali ne kadar.
+        </div>
+        <div>
+          <div style="font-weight:600;color:var(--ink);margin-bottom:4px;">2 · Skoru hesapla</div>
+          Etki seviyesi × Olasılık seviyesi = Risk skoru.<br/>
+          Örnek: Etki Kritik (5) × Olasılık Yüksek (4) = <b style="color:var(--red)">20 — Kritik</b>
+        </div>
+        <div>
+          <div style="font-weight:600;color:var(--ink);margin-bottom:4px;">3 · Renk ne anlama gelir?</div>
+          <span style="color:var(--green)">■</span> <b>Yeşil (1–6)</b> Kabul edilebilir, izle<br/>
+          <span style="color:var(--amber)">■</span> <b>Sarı (8–12)</b> Önlem planla<br/>
+          <span style="color:var(--red)">■</span> <b>Kırmızı (15–25)</b> Acil aksiyon gerekli
+        </div>
+      </div>
+      <div style="margin-top:12px;padding-top:12px;border-top:1px dashed var(--line-2);font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-3);">
+        Sağ tabloda her yüksek riske karşı hangi Annex A kontrollerinin uygulanması gerektiği gösteriliyor. Skor ne kadar yüksekse o risk için birden fazla kontrol devreye alınmalıdır.
+      </div>
+    </div>
     <div class="matrix-wrap">
       <div class="matrix">
         <div class="mh corner">Etki ↓ / Olasılık →</div>
